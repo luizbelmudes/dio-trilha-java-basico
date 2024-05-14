@@ -12,7 +12,7 @@ public class Contador {
         try {
              contar(primeiroParametro, segundoParametro);
          } catch (ParametrosInvalidosException ex) {
-             System.out.println("Parâmetros inválidos");
+             System.out.println("Parâmetros inválidos!");
         }
 
     }
