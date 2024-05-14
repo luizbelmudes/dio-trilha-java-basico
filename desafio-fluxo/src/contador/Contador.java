@@ -15,7 +15,7 @@ public class Contador {
             System.out.println("Digite o segundo Parametro");
             segundoParametro = terminal.nextInt();
         } catch (java.util.InputMismatchException ex){
-            System.out.println("Parâmetro inválido! Digite um número inteiro");
+            System.out.println("Parâmetro inválido! Digite um número inteiro!");
             return;
         }
         /* Try-Catch abaixo pega a Exception se
